@@ -1,0 +1,19 @@
+#line {
+    display: flex ;
+    flex-wrap: wrap;
+}
+#line img {
+    width: 18%;
+    margin: 0.2%;
+  }
+  
+p {
+    text-transform: initial;
+    font-family: monospace;
+    font-size: 100px;
+    font-weight: 800;
+    border-bottom: 20px solid #13a4dd;
+    padding-bottom: 20px;
+    width: 70%;
+    margin: 2%;
+  }

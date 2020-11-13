@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: black 2;
+  }
+.pic{
+    width: 10px;
+}
+.weekday {
+    background-color: aliceblue;
+}

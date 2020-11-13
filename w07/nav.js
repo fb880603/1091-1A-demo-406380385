@@ -29,5 +29,11 @@ function change(index) {
     case 7:
       p.innerHTML = '<iframe width=100% height=100% src="./w06/index.html" />';
       break;
-  }
+    case 8:
+      p.innerHTML = '<iframe width=100% height=100% src="../我的課表/myclass_xx.html" />';
+      break;
+    case 9:
+      p.innerHTML = '<iframe width=100% height=100% src="../履歷表/履歷表.html" />';
+      break;
+  } 
 }

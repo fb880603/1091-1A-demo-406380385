@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.name {
+  background-color: blueviolet;
+  font-size: 18px;
+}
+
+.tablename {
+  background-color: darkblue;
+  color: white;
+  font-size: 18px;
+}
+
+.weekday {
+  background-color: darkturquoise;
+  font-size: 18px;
+}
+
+.number {
+  width: 18px;
+  background-color: chocolate;
+}
+
+.time {
+  background-color: bisque;
+  width: 90px;
+}
+
+.content {
+  background-color: darkgreen;
+  color: #ffffff;
+}
+
+.contact {
+  background-color: purple;
+}
+
+.con {
+  background-color: gray;
+  font-size: 18px;
+}

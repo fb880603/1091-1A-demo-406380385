@@ -3,46 +3,264 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./classdemo.css" />
-    <title>109-1 Class Demo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Microsoft Clone</title>
   </head>
   <body>
-    <div id="container">
-      <ul>
-        <li>
-          <a href="./w01intro/intro.html"> W1: Introduction</a>
-        </li>
-        <li>
-          <a href="./w01intro/pokemon.html"> W1: Pokemon</a>
-        </li>
-        <li>
-          <a href="./w02-imageGallery/img.html"> W2: Image Gallery</a>
-        </li>
-        <li>
-          <a href="./w02blog/blog.html"> W2: Blog</a>
-        </li>
-        <li>
-          <a href="./w03-div/div.html"> W3: Div Demo</a>
-        </li>
-        <li>
-          <a href="./w03-div-tku60/div_tku60.html"> W3: Div Demo</a>
-        </li>
-        <li>
-          <a href="./w04-tku60-js/div_tku60_js.html"> W4: tku60 + js Demo</a>
-        </li>
-        <li>
-          <a href="./w05-bootstrap/nav.html"> w5: Bootstrap</a>
-        </li>
-        <li>
-          <a href="./w05-bootstrap/w06/index.html"> w6: Mincrosoft Clone</a>
-        </li>
-        <li>
-          <a href="./w07/nav.html"> w7:nav</a>
-        </li>
-        <li>
-          <a href="./w07/nav.html">我的課表</a>
-        </li>
-      </ul>
+    <div class="menu-btn">
+      <i class="fas fa-bars fa-2x"></i>
     </div>
+    <div class="container">
+      <!-- NAV -->
+      <div class="main-nav">
+        <img src="./img/logo.png" alt="Microsoft" class="logo" />
+        <ul class="main-menu">
+          <li>
+            <a href="#">Mincrosoft 365</a>
+          </li>
+          <li>
+            <a href="#">Office</a>
+          </li>
+          <li>
+            <a href="#">Windows</a>
+          </li>
+          <li>
+            <a href="#">Surface</a>
+          </li>
+          <li>
+            <a href="#">Xbox</a>
+          </li>
+          <li>
+            <a href="#">支援</a>
+          </li>
+        </ul>
+        <ul class="right-menu">
+          <li>
+            <a href="#home-cards-2-section">所有Mincrosoft</a>
+          </li>
+          <li>
+            <a href="#carbon-section"></a>
+          </li>
+          <li>
+            <i class="fas fa-search"></i>
+          </li>
+          <li>
+            <i class="fas fa-shopping-cart"></i>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Showcase -->
+      <header class="showcase">
+        <h2>Mincrosoft 365</h2>
+        <p>進階版 Office 應用程式、額外的雲端儲存空間、進階安全性等功能，全都在一個方便的訂閱中</p>
+        <a href="#" class="btn">
+          最多可供 6 人使用 <i class="fas fa-chevron-right"></i>
+        </a>
+        <a href="#" class="btn2">
+          適合一人使用 <i class="fas fa-chevron-right"></i>
+        </a>
+      </header>
+
+      <!--icon-->
+      <section class="icon">
+        <div>
+          
+          <img src="./img/icon1.png" alt="" />
+          <h3>選擇您的Mincrosoft 365</h3>
+        
+        </div>
+        <div>
+          <img src="./img/icon2.png" alt="" />
+          <h3>選購 Surface 裝置</h3>
+          
+         
+        </div>
+        <div>
+          <img src="./img/icon3.png" alt="" />
+          <h3>選購 Windows 10</h3>
+
+        </div>
+      </section>
+
+     
+
+      <!-- Home card 1 -->
+      <section class="home-cards">
+        <div>
+          <img src="./img/card1.png" alt="" />
+          <h3>Surface Laptop 3</h3>
+          <p>
+            透過纖薄、輕巧且優雅的設計、更快的效能和長達 11.5 小時的電池續航力，強而有力地展現自我。
+          </p>
+          <a href="#"> 立即選購 <i class="fas fa-chevron-right"></i> </a>
+        </div>
+        <div>
+          <img src="./img/card2.png" alt="" />
+          <h3>全新 Surface Laptop Go</h3>
+          <p>
+            運用時尚和效能兼具、最輕巧的 Surface 筆記型電腦，善加利用每一天。</p>
+          <a href="#">立即選購  <i class="fas fa-chevron-right"></i> </a>
+        </div>
+        <div>
+          <img src="./img/card3.png" alt="" />
+          <h3>Xbox Game Pass Ultimate</h3>
+          <p>
+            前 3 個月 Xbox Game Pass Ultimate 會員資格只要 NT$30。 現在包含 EA Play。 僅限新訂閱者。
+          </p>
+          <a href="#">立即加入  <i class="fas fa-chevron-right"></i> </a>
+        </div>
+        <div>
+          <img src="./img/card4.png" alt="" />
+          <h3>全新 Microsoft Edge 簡介</h3>
+          <p>
+            在您瀏覽時提供世界級的效能，以及更多的隱私、更充足的生產力與更高的價值。
+          </p>
+          <a href="#"> 立即下載 <i class="fas fa-chevron-right"></i> </a>
+        </div>
+      </section>
+
+      <!-- cloud -->
+      <section class="cloud">
+        <div class="content">
+          <h2>
+            Microsoft OneDrive</h2>
+          <p>
+            將檔案和相片儲存到 OneDrive，即可隨時隨地從任何裝置存取
+          </p>
+          <a href="#" class="btn">
+            深入了解 <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- Home cards 2 -->
+   
+      <section class="home-cards" id="home-cards-2-section">
+        <div>
+          <img src="./img/card5.png" alt="" />
+          <h3>適用於商務的 Surface</h3>
+          <p>無論從事哪種工作，都有一款有助於成功的 Surface。</p>
+          <a href="#">立即選購  <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div>
+          <img src="./img/card6.png" alt="" />
+          <h3>Microsoft 365 商務版</h3>
+          <p>
+            透過功能強大的應用程式提高生產力、聯繫和安全，始終領先一步。
+          </p>
+          <a href="#">立即選購 <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div>
+          <img src="./img/card7.png" alt="" />
+          <h3>Microsoft Teams</h3>
+          <p>聊天、開會、通話和共同作業。</p>
+          <a href="#">深入了解 <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div>
+          <img src="./img/card8.png" alt="" />
+          <h3>工作的復原力</h3>
+          <p>
+            使用 Microsoft Teams，團隊無論身在何處都能保持聯繫。
+          </p>
+          <a href="#">深入了解 <i class="fas fa-chevron-right"></i></a>
+        </div>
+      </section>
+
+      
+
+      <!-- Follow -->
+      <section class="follow">
+        <p>Follow Microsoft</p>
+        <a href="https://facebook.com">
+          <img src="./img/social-fb.png" alt="Facebook" />
+        </a>
+        <a href="https://youtube.com">
+          <img src="./img/youtube.png" alt="Facebook" />
+        </a>
+
+      </section>
+    </div>
+
+    <!-- Links -->
+    <section class="links">
+      <div class="links-inner">
+        <ul>
+          <li><h3>最新動向</h3></li>
+          <li><a href="#">Microsoft 365</a></li>
+          <li><a href="#">Surface Go/a></li>
+          <li><a href="#">Surface Book 2</a></li>
+          <li><a href="#">Surface Pro</a></li>
+          <li><a href="#">Windows 10 應用程式</a></li>
+        </ul>
+        <ul>
+          <li><h3>Microsoft Store</h3></li>
+          <li><a href="#">帳戶設定檔</a></li>
+          <li><a href="#">下載中心</a></li>
+          <li><a href="#">Microsoft Store 支援</a></li>
+          <li><a href="#">退貨/退款</a></li>
+          <li><a href="#">訂單追蹤</a></li>
+        </ul>
+        <ul>
+          <li><h3>教育</h3></li>
+          <li><a href="#">Microsoft 在教育領域的應用</a></li>
+          <li><a href="#">學生適用的 Office</a></li>
+          <li><a href="#">學校適用的 Office 365</a></li>
+          <li><a href="#">Microsoft Azure 在教育領域的應用</a></li>
+        </ul>
+        <ul>
+          <li><h3>企業</h3></li>
+          <li><a href="#">Azure</a></li>
+          <li><a href="#">AppSource</a></li>
+          <li><a href="#">汽車</a></li>
+          <li><a href="#">政府機構</a></li>
+          <li><a href="#">醫療保健</a></li><li>
+          <li><a href="#">製造</a></li>
+          <li><a href="#">金融服務</a></li>
+          <li><a href="#">金融服務</a></li>
+
+        </ul>
+        <ul>
+          <li><h3>開發人員</h3></li>
+          <li><a href="#">Microsoft Visual Studio</a></li>
+          <li><a href="#">Windows 開發人員中心</a></li>
+          <li><a href="#">開發人員中心</a></li>
+          <li><a href="#">Microsoft 開發人員計畫</a></li>
+          <li><a href="#">Channel 9
+          </a></li>
+        </ul>
+        <ul>
+          <li><h3>公司</h3></li>
+          <li><a href="#">人才招募</a></li>
+          <li><a href="#">公司新聞</a></li>
+          <li><a href="#">Microsoft 隱私權</a></li>
+          <li><a href="#">投資者</a></li>
+          <li><a href="#">安全性
+          </a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <div><i class="fas fa-globe fa-2x"></i> 中文(台灣)</div>
+        <ul>
+          <li><a href="#">連絡 Microsoft</a></li>
+          <li><a href="#"> 隱私權</a></li>
+          <li><a href="#">使用規定</a></li>
+          <li><a href="#">商標</a></li>
+          <li><a href="#">有關我們的廣告訊息</a></li>
+          <li><a href="#">&copy; Microsoft 2021</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
